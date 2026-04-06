@@ -1,0 +1,29 @@
+# Compiled binaries (no extension on Linux)
+# Ignore any executable that matches a .c or .cpp source name
+writer
+reader
+
+# General: compiled outputs
+*.o
+*.a
+*.so
+*.out
+a.out
+
+# CMake
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
