@@ -1,7 +1,7 @@
 # Compiled binaries (no extension on Linux)
-# Ignore any executable that matches a .c or .cpp source name
 writer
 reader
+server
 
 # General: compiled outputs
 *.o
